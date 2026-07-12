@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    padding: 80px 8%;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background-color: #2E2622;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 20%;
+    height: auto;
+}
+
+.coffee-color{
+    color: #E9B44C;
+}
+
+/*Banner*/
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./image/bg-image.avif");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+.hero p{
+    color:#E9B44C;
+    font-size: 12px;
+}
+.morning{
+    font-size: 10px;
+    color: white !important;
+}
+.hero button{
+    width:20%;
+    margin-left: 40%;
+    padding: 10px 0;
+    border-radius: 20px;
+    background-color:#E9B44C;
+    font-size: 10px;
+    font-weight:bolder;
+}
+
+/*Story*/
+
+.story{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    background-color: #f7f1ea;
+}
+.story img{
+    width: 100%;
+    border-radius: 12px;
+}
+.right-side{
+   display: grid;
+   align-items: center;
+}
+.right-side p{
+    padding-bottom: 14px;
+    color: #5A4F47;
+}
+.right-side h2{
+    padding-bottom: 14px;
+}
+.right-side button{
+    width:150px;
+    padding: 14px 0;
+    border-radius: 20px;
+    border: none;
+    background-color:#E9B44C;
+    font-size: 10px;
+    font-weight:bolder;
+}
