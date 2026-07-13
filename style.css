@@ -110,3 +110,41 @@ header{
     font-size: 10px;
     font-weight:bolder;
 }
+
+/*popular*/
+
+.popular{
+    background-color:#F1E7D8;
+}
+.menu{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.menu p{
+    color:#E9B44C;
+    font-size: 12px;
+    padding: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 25px;
+}
+.card p{
+    color: #2E2622;
+    padding-bottom: 12px;
+}
+.card h3{
+    padding-bottom: 12px;
+}
+.card img{
+    width: 30px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
