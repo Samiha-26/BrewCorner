@@ -85,6 +85,7 @@ header{
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
     background-color: #f7f1ea;
+
 }
 .story img{
     width: 100%;
@@ -128,7 +129,7 @@ header{
 .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+    gap: 30px;
 }
 .card{
     background-color: white;
@@ -141,10 +142,70 @@ header{
     padding-bottom: 12px;
 }
 .card h3{
+    color: #2E2622;
     padding-bottom: 12px;
 }
 .card img{
     width: 30px;
     padding-top: 5px;
     padding-bottom: 12px;
+}
+
+/*why us*/
+
+.different{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.box{
+    text-align: center;
+    padding: 25px;
+}
+.box p,h3{
+     color: #2E2622;
+}
+
+.icons{
+   width: 50px;
+    height: 50px;
+    background-color: #2E2622;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto 20px;
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.shade{
+    background-color: #f7f1ea;
+}
+
+/*opening time*/
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin:0 auto;
+    
+}
+thead{
+    background-color: #2E2622;
+}
+td, th{
+    border:2px solid #2E2622;
+    padding: 12px 5px;
+    font-weight: 500;
+}
+th{
+    color:#E9B44C;
+}
+td{
+    color:#5A4F47;
+    font-size: 14px;
 }
