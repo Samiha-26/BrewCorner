@@ -261,10 +261,11 @@ td{
 }
 
 .corner{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
 }
+
 .cup{
     display: flex;
     align-items: center;
@@ -298,4 +299,40 @@ hr{
     border:0;
     border-top:1px solid #443b36;
     margin:30px 0 20px;
+}
+
+/*footer bottom*/
+
+.footer-bottom{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.copyright p, .copyright i{
+    color:#CFC6BB;
+    font-size: 12px;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+}
+
+.social i{
+    background: #5A4F47;
+    color:#ddd;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 10px;
 }
